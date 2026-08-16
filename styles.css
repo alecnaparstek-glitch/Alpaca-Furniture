@@ -22,3 +22,109 @@
   .section-logo{width:36px;height:36px}
   .contact-logo{position:relative;right:auto;top:auto;margin-bottom:15px}
 }
+
+/* Redesigned How It Works section */
+.process{
+  background:#f3efe7;
+  color:#26302c;
+  border-top:1px solid #e2dbcf;
+  border-bottom:1px solid #e2dbcf;
+}
+.process-new{display:block}
+.process-heading{
+  text-align:center;
+  max-width:650px;
+  margin:0 auto 52px;
+}
+.process-heading .eyebrow{color:#8b6b46}
+.process-heading h2{
+  font-family:"Playfair Display",serif;
+  font-size:clamp(38px,5vw,58px);
+  line-height:1.05;
+  letter-spacing:-.035em;
+  margin:0 0 16px;
+}
+.process-heading h2 em{color:#69736d}
+.process-heading>p:last-child{
+  color:#68716c;
+  font-size:15px;
+  max-width:500px;
+  margin:0 auto;
+}
+.steps-new{
+  position:relative;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+.steps-new::before{
+  content:"";
+  position:absolute;
+  left:11%;
+  right:11%;
+  top:31px;
+  height:1px;
+  background:#cfc4b3;
+  z-index:0;
+}
+.step-new{
+  position:relative;
+  z-index:1;
+  background:#fff;
+  border:1px solid #ded7ca;
+  border-radius:12px;
+  padding:0 24px 27px;
+  min-height:205px;
+  box-shadow:0 8px 25px rgba(38,48,44,.05);
+}
+.step-number{
+  width:62px;
+  height:62px;
+  margin:-1px auto 23px;
+  border-radius:50%;
+  background:#26302c;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.08em;
+  border:6px solid #f3efe7;
+  box-shadow:0 0 0 1px #cdbda7;
+}
+.step-new-content{text-align:center}
+.step-new h3{
+  margin:0 0 9px;
+  font-size:17px;
+  color:#26302c;
+}
+.step-new p{
+  margin:0;
+  color:#68716c;
+  font-size:13px;
+  line-height:1.6;
+}
+@media(max-width:900px){
+  .steps-new{grid-template-columns:repeat(2,1fr);gap:20px}
+  .steps-new::before{display:none}
+}
+@media(max-width:600px){
+  .process-heading{margin-bottom:38px}
+  .steps-new{grid-template-columns:1fr;gap:14px}
+  .step-new{
+    min-height:0;
+    display:flex;
+    align-items:center;
+    gap:18px;
+    padding:18px 20px;
+  }
+  .step-number{
+    flex:0 0 54px;
+    width:54px;
+    height:54px;
+    margin:0;
+    border-width:4px;
+  }
+  .step-new-content{text-align:left}
+}
