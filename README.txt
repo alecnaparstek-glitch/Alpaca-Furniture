@@ -1,14 +1,10 @@
-# Alpaca Furniture Revitalization Website
+# Alpaca Furniture Revitalization
 
-A responsive static website built from the supplied furniture photography and copy.
+GitHub-ready static website.
 
-## Files
-- `index.html` — page structure and content
-- `styles.css` — responsive visual design
-- `script.js` — mobile navigation, gallery lightbox, current year
-- `images/` — selected supplied photography
-
-## Deploy
-Upload the folder to any static hosting provider (Netlify, Cloudflare Pages, GitHub Pages, etc.).
-
-The primary CTA uses `tel:+13165197782` because no email address or form-processing endpoint was supplied.
+- index.html is at the repository root
+- styles.css and script.js are at the repository root
+- Images are optimized for the web
+- Includes before/after transformations and customer reviews
+- Uses the Alpaca logo throughout the site
+- Does not advertise custom furniture work for customers
