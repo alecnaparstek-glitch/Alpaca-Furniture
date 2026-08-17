@@ -22,8 +22,3 @@
   .section-logo{width:36px;height:36px}
   .contact-logo{position:relative;right:auto;top:auto;margin-bottom:15px}
 }
-
-/* Requested hero image update: keep the existing text/overlay/fade treatment. */
-.hero-image img{content:url("images/alpaca-hero.jpg");object-fit:cover;object-position:center 52%}
-.hero-image{background:#cfd9d6}
-.hero-overlay{background:linear-gradient(90deg,rgba(25,34,30,.80) 0%,rgba(25,34,30,.58) 34%,rgba(25,34,30,.20) 66%,rgba(25,34,30,.05) 100%),linear-gradient(0deg,rgba(25,34,30,.40) 0%,rgba(25,34,30,.02) 45%)}
